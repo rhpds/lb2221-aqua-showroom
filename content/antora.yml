@@ -1,12 +1,12 @@
 name: modules
-title: Default Title
+title: "LB2221: Smart Aquaculture edge-to-cloud developer workshop (PARTNER)"
 version: master
 nav:
   - modules/ROOT/nav.adoc
 
 asciidoc:
   attributes:
-    lab_name: "I'm the lab_name var"
+    lab_name: "LB2221: Smart Aquaculture edge-to-cloud developer workshop (PARTNER)"
     release-version: master
     page-pagination: true
     my_var: "foo"
