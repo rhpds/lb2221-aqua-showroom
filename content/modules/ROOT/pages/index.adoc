@@ -4,6 +4,7 @@
 == Lab module index
 
 * Module 1: Introductions
+* Module 2: Access your OpenShift AI Workbench
 
 === Lab Access
 
