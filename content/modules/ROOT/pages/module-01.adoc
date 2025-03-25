@@ -154,65 +154,65 @@ Aquaculture with smart data models so that you can do it yourself.
 
 == Getting started building a Smart Aquaculture platform
 
-To begin working on a use case like Smart Aquaculture, you need to be
-working in a supported environment. The Computate platform is public and
-open source, so it runs on Linux. Linux is different than proprietary
-computer operating systems like Microsoft and Apple. It's best suited to
-run on a computer with the x86_64 architecture, in place of Microsoft. I
-wouldn't recommend installing Linux on an Apple computer because it is a
-different ARM64 based architecture and incompatible with some cloud
-container images that are required. The Linux operating systems best
-suited for developing a Smart Aquaculture platform are Red Hat
-Enterprise Linux 9, CentOS Stream 9, and Fedora 34+.
+To begin working on a use case like Smart Aquaculture, you need to be working in
+a supported environment. This Red Hat OpenShift Demo environment is already to
+go with all the dependencies and source code to get started.  The Computate
+platform is public and open source, so it runs on Linux. Linux is different than
+proprietary computer operating systems like Microsoft and Apple. It's best
+suited to run on a computer with the x86_64 architecture, in place of Microsoft.
+I wouldn't recommend installing Linux on an Apple computer because it is a
+different ARM64 based architecture and incompatible with some cloud container
+images that are required. The Linux operating systems best suited for developing
+a Smart Aquaculture platform are Red Hat Enterprise Linux 9, CentOS Stream 9,
+and Fedora 34+.
 
 == Building a Smart Aquaculture platform in the cloud
 
-Thanks to the powerful cloud developer tools built into Red Hat
-OpenShift Container Platform, Developers can log into a VSCode workbench
-directly in the browser and start developing a Smart Aquaculture
-platform. The OpenShift AI workbenches provided by Red Hat allow
-developers to write code in the browser, it doesn't matter what your
-computer's architecture or operating system is.
+Thanks to the powerful cloud developer tools built into Red Hat OpenShift
+Container Platform, Developers can log into a VSCode workbench directly in the
+browser and start developing a Smart Aquaculture platform. The OpenShift AI
+workbenches provided by Red Hat allow developers to write code in the browser,
+it doesn't matter what your computer's architecture or operating system is.
 
 == Sovereign generative AI behind the Smart Aquaculture platform
 
 Because developing microservices is hard, and requires a lot of tedious
-configuration of databases, OpenAPI specs, and code, it really helps to
-write down your ideas in a logical way and have the code generated for
-you. This is how Computate software powering the Smart Aquaculture
-platform works. You define a logical list of variables to decide how
-your platform will be customized for your organization and your use
-case. Then the boilerplate code that you need is automatically generated
-for you to jumpstart your project. Then you work on building specific
-models for your specific use case. Then you can create articles that
-explain your project.
+configuration of databases, OpenAPI specs, and code, it really helps to write
+down your ideas in a logical way and have the code generated for you. This is
+how Computate software powering the Smart Aquaculture platform works. You define
+a logical list of variables to decide how your platform will be customized for
+your organization and your use case. Then the boilerplate code that you need is
+automatically generated for you to jumpstart your project. Then you work on
+building specific models for your specific use case. Then you can create
+articles that explain your project.
 
 == Developing smart data models in your platform
 
-A model in a platform powered by Computate is generally composed of Java
-code comments describing the whole model. You create a Java Class in a
-unique Java Package, then write a description for your model, write some
-language context for your model because it's meant to be
-internationalized, add a Font Awesome icon for your model, add an API
-URI where your JSON REST API for your model will be, add a search page
-URI where you can search for the model, add an edit page URI where you
-can edit the model, add API methods you wish to provide in your API
-(like GET, POST, PATCH, DELETE, PUTImport) then create any number of
-authorization groups who can access the various API methods for your
-model.
+A model in a platform powered by Computate is generally composed of Java code
+comments describing the whole model. You create a Java Class in a unique Java
+Package, then write a description for your model, write some language context
+for your model because it's meant to be internationalized, add a Font Awesome
+icon for your model, add an API URI where your JSON REST API for your model will
+be, add a search page URI where you can search for the model, add an edit page
+URI where you can edit the model, add API methods you wish to provide in your
+API (like GET, POST, PATCH, DELETE, PUTImport) then create any number of
+authorization groups who can access the various API methods for your model.
 
 == Developing model persistent fields
 
 The next step to develop your model is to create fields that are either
-persisted in the database, or calculated and returned by the search
-engine in the API for your model. To develop this kind of special field
-into the model with the Computate platform, you create a new protected
-void method in your class that starts with an _ (underscore) character,
-followed by the field name. Next, if the field can be null, you will
-want to create one parameter in the method with the Wrap class that
-comes from the computate-search project. The Wrap class is a Generic
-class where you can specify the actual Java Class of the field as a
-Generic type of the Wrap class. If you wish to leave the field null when
-you initialize the class, you can leave the method empty. If you wish to
-populate the field with a default value, then construct the value and
-wrap it in the Wrap by typing w.o("field value goes here");
+persisted in the database, or calculated and returned by the search engine in
+the API for your model. To develop this kind of special field into the model
+with the Computate platform, you create a new protected void method in your
+class that starts with an _ (underscore) character, followed by the field name.
+Next, if the field can be null, you will want to create one parameter in the
+method with the Wrap class that comes from the computate-search project. The
+Wrap class is a Generic class where you can specify the actual Java Class of the
+field as a Generic type of the Wrap class. If you wish to leave the field null
+when you initialize the class, you can leave the method empty. If you wish to
+populate the field with a default value, then construct the value and wrap it in
+the Wrap by typing w.o("field value goes here");
+
+== Next module
+
+Now you can move on to module 2. 
