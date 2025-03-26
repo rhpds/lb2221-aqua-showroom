@@ -1,12 +1,12 @@
 name: modules
-title: "LB2221: Smart Aquaculture edge-to-cloud developer workshop (PARTNER)"
+title: "LB2221: Smart Aquaculture"
 version: master
 nav:
   - modules/ROOT/nav.adoc
 
 asciidoc:
   attributes:
-    lab_name: "LB2221: Smart Aquaculture edge-to-cloud developer workshop (PARTNER)"
+    lab_name: "LB2221: Smart Aquaculture edge-to-cloud developer workshop"
     release-version: master
     page-pagination: true
     my_var: "foo"
@@ -17,3 +17,5 @@ asciidoc:
     page-links:
     - url: https://redhat.com
       text: Red Hat
+    user: sampleuser
+    password: samplepassword

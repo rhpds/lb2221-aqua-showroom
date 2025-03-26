@@ -1,47 +1,58 @@
-= Access your OpenShift AI Workbench
+= Your OpenShift AI Workbench
 
-image::/c-key.svg["Computate c key"]
+image::c-key.svg["Computate c key"]
 
 Author: Christopher Tate
 
 == Building a Smart Aquaculture platform in the cloud
 
-Thanks to the powerful cloud developer tools built into Red Hat OpenShift
-Container Platform, Developers can log into a VSCode workbench directly in the
-browser and start developing a Smart Aquaculture platform. The OpenShift AI
-workbenches provided by Red Hat allow developers to write code in the browser,
-it doesn't matter what your computer's architecture or operating system is.
+Thanks to the powerful cloud developer tools built into Red Hat OpenShift Container Platform, developers can log into a VSCode workbench directly in the browser and start developing a Smart Aquaculture platform.
+The OpenShift AI workbenches provided by Red Hat allow developers to write code in the browser, it doesn't matter what your computer's architecture or operating system is.
 
 == Access the OpenShift Console
 
-The OpenShift Console is the visual web-based way of interacting with your cloud deployments. 
+The OpenShift Console is the visual web-based way of interacting with your cloud deployments.
 
-Log in to the {console_url}[OpenShift Console] with username {user} password {password}. 
+Log in to the {console_url}[OpenShift Console] with username {user} password {password}.
 
-To access your resources in the OpenShift Console: 
+To access your resources in the OpenShift Console:
 
-- on the left side of the page, click on `+Workloads+` → `+Pods+`. 
-- At the top left side of the page, click on the `+Project+` dropdown and select `+workbench-{user}+`. 
+- on the left side of the page, click on `+Workloads+` → `+Pods+`.
+- At the top left side of the page, click on the `+Project+` dropdown and select `+workbench-{user}+`.
 
-There should be 2 pods listed: 
-- One Pod that starts with `+deploy-workbench+` that was a Job that ran to Status Completed to set up the workbench automatically with everything you need to get started. 
-- One Pod `+vscode-0+` that is your own VSCode workbench. 
+There should be 2 pods listed:
+- One Pod that starts with `+deploy-workbench+` that was a Job that ran to Status Completed to set up the workbench automatically with everything you need to get started.
+- One Pod `+vscode-0+` that is your own VSCode workbench.
 
 == Access your OpenShift AI VSCode Workbench
 
-To access your own OpenShift AI VSCode Workbench: 
-- Click the image:/openshift-apps.png[image] button in the top right. 
-- Click `+Red Hat OpenShift AI+`. 
-- Log in with username {user} password {password}. 
-- On the left, click on `+Data Science Projects+`
-- Click on your Data Science Project `+workbench-{user}+`
-- Click on the `Workbenches` tab. 
-- Click the image:/openshift-ai-workbench-open.png[image] button for your workbench. 
-- Log in with username {user} password {password}. 
-- Click the image:/workbench-allow-selected-permissions.png[image] button. 
-- Click the image:/workbench-yes-i-trust-the-authors.png[image] button. 
-- Click the `+Install+` button for the image:/workbench-install-extensions.png[image] popup in the bottom right. Some new tabs for each extension will open up and automatically install the extensions. 
+To access your own OpenShift AI VSCode Workbench
+
+. Click the menu button in the top right.
++
+image:openshift-apps.png[image,align="left"]
++
+. Click `+Red Hat OpenShift AI+`.
+. Log in with username `{user}` password `{password}`.
+. On the left, click on `+Data Science Projects+`.
+. Click on your Data Science Project `+workbench-{user}+`.
+. Click on the `Workbenches` tab.
+. Click the Open button for your workbench.
++
+image:openshift-ai-workbench-open.png[align=left]
++
+. Log in with username {user} password {password}.
+. Click the allow-selected-permissions button.
++
+image:workbench-allow-selected-permissions.png[image,align="left"]
+. Click the "I trust the authors" button.
++
+image:workbench-yes-i-trust-the-authors.png[image,align="left"]
+. Click the `+Install+` button for the popup in the bottom right.
+Some new tabs for each extension will open up and automatically install the extensions.
++
+image:workbench-install-extensions.png[image,align="left"]
 
 == Build the Smart Aquaculture platform from scratch
 
-Begin building the Smart Aquaculture platform from scratch by following the first `+00-create-scaffolding-code.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel. 
+Begin building the Smart Aquaculture platform from scratch by following the first `+00-create-scaffolding-code.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.

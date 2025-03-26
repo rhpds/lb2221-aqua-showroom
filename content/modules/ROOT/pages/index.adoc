@@ -1,14 +1,14 @@
-= Visualizing live traffic data from the edge to the cloud
-= LB2480
-
 == Lab module index
 
-* Module 1: Introductions
+* Module 1: Introduction
 * Module 2: Access your OpenShift AI Workbench
+
+////
 
 === Lab Access
 
-The terminal window to your right is *already* logged into the lab environment as the `{ssh_user}` user via `ssh`. 
+The terminal window to your right is *already* logged into the lab environment as the `{ssh_user}` user via `ssh`.
 All steps of this lab are to be completed as the `{ssh_user}` user.
 
 You should login as an Openshift user during this course.
+////
