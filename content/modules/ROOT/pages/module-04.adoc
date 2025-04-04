@@ -36,4 +36,4 @@ Begin the template files that require some artificial intelligence to be written
 
 == Next
 
-Next, you will automatically generate the Open API specification, database schema, and initial database tables for your new data-driven platform. 
+Next, you will automatically generate the Open API specification, database schema, and initial database tables for your new data-driven platform, then run your site. 

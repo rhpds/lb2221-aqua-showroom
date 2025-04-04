@@ -1,6 +1,6 @@
 = Regenerate OpenAPI spec, initialize database, and run your site!
 
-image::c-key.svg["Computate c key"]
+image::smart-aquaculture-openapi-spec.png["Smart Aquaculture OpenAPI spec"]
 
 At this point, you have generated a brand new data-driven website that can be customized for business use cases. 
 It's time to compile your code, regenerate the OpenAPI specification for your site, update the database schema with the SiteUser model, and create the new SiteUser database table. The reason for a database table for site users is for giving the user settings to toggle and configure within the application. One of the typical user settings I always add is a `+see archived+` feature to see site data that is no longer relevant and has been archived. 
@@ -11,4 +11,7 @@ Compile, regenerate and run your webiste by following the `+03-regenerate-api-da
 
 == Next
 
-Next, you will automatically generate the OpenAPI specification, database schema, and initial database tables for your new data-driven platform. 
+Were you able to launch your own data-driven website in the cloud? 
+
+
+image:c-key.svg[image,align=left]ongratulations! Next, you will enhance your website with new data models for fish populations, feeding operations, feeders, fish feed, and crowd flow observed models. 
