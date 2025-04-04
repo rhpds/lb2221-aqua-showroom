@@ -2,8 +2,6 @@
 
 image::c-key.svg["Computate c key"]
 
-Author: Christopher Tate
-
 == Using AI to generate more code
 
 When you are building a custom data-driven website, not all code files are easy to generate or fit a standard template. 
@@ -27,3 +25,15 @@ Java models can have very different characteristics:
 All of these characteristics can be learned by a machine by parsing your code, and indexing the data in a search engine. 
 We can allow the machine to write our code for us as we code. 
 Then we just need to compile and run our application and see the results. 
+
+=== Run the Computate AI code watcher service
+
+Enable code generation in your OpenShift AI Workbench by following the `+01-run-computate-ai-code-watcher.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.
+
+=== Generate AI template files
+
+Begin the template files that require some artificial intelligence to be written by following the `+02-generate-ai-template-files.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.
+
+== Next
+
+Next, you will automatically generate the Open API specification, database schema, and initial database tables for your new data-driven platform. 

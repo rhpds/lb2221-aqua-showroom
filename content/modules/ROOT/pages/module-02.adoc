@@ -54,7 +54,3 @@ image:workbench-install-extensions.png[image,align="left"]
 == Next
 
 Next, you will get started with software development and generate all the scaffolding code for your Smart Aquaculture data-driven website. 
-
-=== Build the Smart Aquaculture platform from scratch
-
-Begin building the Smart Aquaculture platform from scratch by following the first `+00-create-scaffolding-code.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.

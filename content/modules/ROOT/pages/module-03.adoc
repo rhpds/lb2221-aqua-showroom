@@ -13,6 +13,10 @@ The Computate Smart Website Builder uses Ansible automation to:
 - Create directories for scaffolding code. 
 - Create each of the scaffolding code files. 
 
+== Build the Smart Aquaculture platform from scratch
+
+Begin building the Smart Aquaculture platform from scratch by following the first `+00-create-scaffolding-code.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.
+
 == What kind of scaffolding code is generated with the Computate Smart Website Builder
 
 image::smart-aquaculture-scaffolding-code.png["Smart Aquaculture scaffolding code"]
@@ -33,7 +37,3 @@ These include:
 == Next
 
 Next, you will use the Computate code generation service to create some missing code. 
-
-=== Generate AI template files
-
-Begin the template files that require some artificial intelligence to be written by following the first `+02-generate-ai-template-files.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.

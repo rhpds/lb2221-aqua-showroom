@@ -4,6 +4,7 @@
 * Module 2: Access your OpenShift AI Workbench
 * Module 3: Building a Smart Aquaculture cloud platform from thin air
 * Module 4: Generate AI template files
+* Module 5: Regenerate OpenAPI spec, initialize database, and run your site!
 
 ////
 
