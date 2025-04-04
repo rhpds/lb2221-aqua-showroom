@@ -1,0 +1,29 @@
+= Generate AI templated files
+
+image::c-key.svg["Computate c key"]
+
+Author: Christopher Tate
+
+== Using AI to generate more code
+
+When you are building a custom data-driven website, not all code files are easy to generate or fit a standard template. 
+The Computate Smart Website Builder automatically indexes all of your source code into a search engine to: 
+
+- Keep track of all of your Java project dependencies. 
+- Keep track of all of your Java imports. 
+- Store information about all Java models in your project. 
+
+Java models can have very different characteristics: 
+
+- Some data models store data only in the search engine. 
+- Some data models store data in the database. 
+- Some data models require fine-grained authorization to data. 
+- Some data models are public data. 
+- Some data models have a REST API. 
+- Some data models have search pages, display pages, or user pages. 
+- Some data models have public downloads, some have authorized downloads. 
+- Some data models have custom APIs that don't fit a typical design. 
+
+All of these characteristics can be learned by a machine by parsing your code, and indexing the data in a search engine. 
+We can allow the machine to write our code for us as we code. 
+Then we just need to compile and run our application and see the results. 

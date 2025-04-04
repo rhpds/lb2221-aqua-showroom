@@ -2,8 +2,6 @@
 
 image::c-key.svg["Computate c key"]
 
-Author: Christopher Tate
-
 == Building a Smart Aquaculture platform in the cloud
 
 Thanks to the powerful cloud developer tools built into Red Hat OpenShift Container Platform, developers can log into a VSCode workbench directly in the browser and start developing a Smart Aquaculture platform.
@@ -53,6 +51,10 @@ Some new tabs for each extension will open up and automatically install the exte
 +
 image:workbench-install-extensions.png[image,align="left"]
 
-== Build the Smart Aquaculture platform from scratch
+== Next
+
+Next, you will get started with software development and generate all the scaffolding code for your Smart Aquaculture data-driven website. 
+
+=== Build the Smart Aquaculture platform from scratch
 
 Begin building the Smart Aquaculture platform from scratch by following the first `+00-create-scaffolding-code.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.

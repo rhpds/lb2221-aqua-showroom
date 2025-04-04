@@ -1,0 +1,39 @@
+= Building a Smart Aquaculture cloud platform from thin air
+
+image::computate-smart-website-builder-scaffolding-code.png["Computate Smart Website Builder scaffolding code"]
+
+The first step to building your own data-driven website for Smart Aquaculture is creating a bunch of scaffolding code. 
+The Computate Smart Website Builder uses Ansible automation to: 
+
+- load the site variables. 
+- Query the search engine for all Java models. 
+- Query the search engine for all public Java models. 
+- Query the search engine for Java models with fine-grained authorization. 
+- Query the search engine for Java models with authorized pages. 
+- Create directories for scaffolding code. 
+- Create each of the scaffolding code files. 
+
+== What kind of scaffolding code is generated with the Computate Smart Website Builder
+
+image::smart-aquaculture-scaffolding-code.png["Smart Aquaculture scaffolding code"]
+
+There are Jinja templates for many types of scaffolding code for creating a data-driven website. 
+These include: 
+
+- .gitignore files for keeping git repositories clean and without files with hard-coded paths. 
+- pom.xml for Java dependencies for the project. 
+- Base java classes for static configuration variables, site request data, search engine results, database models, and Java Package information for API code generation. 
+- Website static content for cascading stylesheet site styles, default JavaScript for the site, JavaScript libraries for graphs, maps, and event-driven websocket messaging to the pages in the browser. 
+- Default icons for the Smart Aquaculture platform. 
+- Shell scripts for indexing the code in the search engine, watching your code for changes, and generating code for you. 
+- The Containerfile for building your application into a container image that can be deployed to the cloud. 
+- A page layout Java class and Jinja HTML template for a constistent look and feel for all the pages in the site. 
+- A home page that can be customized with HTML and JavaScript to make the site more interesting and personalized. 
+
+== Next
+
+Next, you will use the Computate code generation service to create some missing code. 
+
+=== Generate AI template files
+
+Begin the template files that require some artificial intelligence to be written by following the first `+02-generate-ai-template-files.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.
