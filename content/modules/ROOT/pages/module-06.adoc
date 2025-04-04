@@ -1,0 +1,30 @@
+= Build new Smart Data Models into your site with AI
+
+image::smart-aquaculture-fish-populations.png["image"]
+
+We can build a complete IoT platform for Smart Aquaculture using Smart Data models from the open source FIWARE community. 
+We also deploy FIWARE microservices like a context broker to publish Smart Data Models in the Smart Aquaculture platform, 
+and register entities with the FIWARE Context Broker. 
+Then we can visualize the Smart Data Models in a custom data-driven website, or in the https://www.fiware.org/wp-content/directories/marketing-toolbox/material/FIWAREBrochure_Marketplace.pdf[FIWARE Marketplace]. 
+
+With the Computate AI code genreration tools. We can automatically generate OpenAPI specs, database table schemas, Java models, Vert.x Reactive Java APIs, Handlebars HTML page templates, JavaScript page and API functions, NGSI-LD Context data, OpenShift Custom Resource Definitions, and Ansible Operator roles and playbooks for any of the hundreds of open source Edge device data related https://github.com/smart-data-models[FIWARE Smart Data Models available here]. 
+
+=== Build the Fish Population data model and test out the new models in your site
+
+Build the new smart data model with AI, then compile, regenerate and run your webiste by following the `+04-create-FishPopulation.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.
+
+=== Build the Feeding Operation data model and test out the new models in your site
+
+Build the new smart data model with AI, then compile, regenerate and run your webiste by following the `+05-create-FeedingOperation.ipynb+` Jupyter Notebook.
+
+=== Build the Fish Feeder data model and test out the new models in your site
+
+Build the new smart data model with AI, then compile, regenerate and run your webiste by following the `+06-create-Feeder.ipynb+` Jupyter Notebook.
+
+=== Build the Fish Feed data model and test out the new models in your site
+
+Build the new smart data model with AI, then compile, regenerate and run your webiste by following the `+07-create-Feed.ipynb+` Jupyter Notebook.
+
+=== Build the Crowd Flow Observed data model and test out the new models in your site
+
+Build the new smart data model with AI, then compile, regenerate and run your webiste by following the `+08-create-CrowdFlowObserved.ipynb+` Jupyter Notebook.
