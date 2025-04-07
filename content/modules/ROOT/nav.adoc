@@ -1,2 +1,6 @@
 * xref:module-01.adoc[]
 * xref:module-02.adoc[]
+* xref:module-03.adoc[]
+* xref:module-04.adoc[]
+* xref:module-05.adoc[]
+* xref:module-06.adoc[]

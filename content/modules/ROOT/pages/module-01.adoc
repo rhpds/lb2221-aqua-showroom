@@ -137,3 +137,7 @@ Next, if the field can be null, you will want to create one parameter in the met
 The Wrap class is a Generic class where you can specify the actual Java Class of the field as a Generic type of the Wrap class.
 If you wish to leave the field null when you initialize the class, you can leave the method empty.
 If you wish to populate the field with a default value, then construct the value and wrap it in the Wrap by typing w.o("field value goes here");
+
+== Next
+
+Next, you will learn how to connect to your VSCode workbench. 
