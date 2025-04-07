@@ -16,7 +16,7 @@ Log in to the {console_url}[OpenShift Console] with username {user} password {pa
 To access your resources in the OpenShift Console:
 
 - on the left side of the page, click on `+Workloads+` → `+Pods+`.
-- At the top left side of the page, click on the `+Project+` dropdown and select `+workbench-{user}+`.
+- At the top left side of the page, click on the `+Project+` dropdown and select `workbench-{user}`.
 
 There should be 2 pods listed:
 - One Pod that starts with `+deploy-workbench+` that was a Job that ran to Status Completed to set up the workbench automatically with everything you need to get started.
@@ -33,7 +33,7 @@ image:openshift-apps.png[image,align="left"]
 . Click `+Red Hat OpenShift AI+`.
 . Log in with username `{user}` password `{password}`.
 . On the left, click on `+Data Science Projects+`.
-. Click on your Data Science Project `+workbench-{user}+`.
+. Click on your Data Science Project `workbench-{user}`.
 . Click on the `Workbenches` tab.
 . Click the Open button for your workbench.
 +
