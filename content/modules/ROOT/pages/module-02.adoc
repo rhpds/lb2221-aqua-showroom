@@ -11,7 +11,7 @@ The OpenShift AI workbenches provided by Red Hat allow developers to write code 
 
 The OpenShift Console is the visual web-based way of interacting with your cloud deployments.
 
-Log in to the {console_url}[OpenShift Console^] with username {user} password {password}.
+{console_url}[Log in to the OpenShift Console^] with username `{user}` password `{password}`.
 
 To access your resources in the OpenShift Console:
 
@@ -33,13 +33,13 @@ image:openshift-apps.png[image,align="left"]
 . Click `+Red Hat OpenShift AI+`.
 . Log in with username `{user}` password `{password}`.
 . On the left, click on `+Data Science Projects+`.
-. Click on your Data Science Project `workbench-{user}`.
+. Click on your Data Science Project `Workbench`.
 . Click on the `Workbenches` tab.
 . Click the Open button for your workbench.
 +
 image:openshift-ai-workbench-open.png[align=left]
 +
-. Log in with username {user} password {password}.
+. Log in with username `{user}` password `{password}`.
 . Click the allow-selected-permissions button.
 +
 image:workbench-allow-selected-permissions.png[image,align="left"]
