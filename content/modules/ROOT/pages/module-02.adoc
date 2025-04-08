@@ -11,7 +11,7 @@ The OpenShift AI workbenches provided by Red Hat allow developers to write code 
 
 The OpenShift Console is the visual web-based way of interacting with your cloud deployments.
 
-Log in to the {console_url}[OpenShift Console] with username {user} password {password}.
+Log in to the {console_url}[OpenShift Console^] with username {user} password {password}.
 
 To access your resources in the OpenShift Console:
 
@@ -53,4 +53,4 @@ image:workbench-install-extensions.png[image,align="left"]
 
 == Next
 
-Next, you will get started with software development and generate all the scaffolding code for your Smart Aquaculture data-driven website. 
+Next, you will get started with software development and generate all the scaffolding code for your Smart Aquaculture data-driven website.
