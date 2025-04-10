@@ -5,6 +5,7 @@
 * Module 3: Building a Smart Aquaculture cloud platform from thin air
 * Module 4: Generate AI template files
 * Module 5: Regenerate OpenAPI spec, initialize database, and run your site!
+* Module 6: Build new Smart Data Models for Fish Populations, and run your site!
 
 ////
 

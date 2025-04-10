@@ -9,6 +9,10 @@ It's time to compile your code, regenerate the OpenAPI specification for your si
 
 Compile, regenerate and run your webiste by following the `+03-regenerate-api-database-and-context.ipynb+` Jupyter Notebook in the files of VSCode and running each command in the Jupyter Notebook with the Bash Kernel.
 
+If there are still lots of errors in the code generation, you may have skipped creating one of the important Java files in the previous notebook, like `SiteUser.java`, `SitePage.java`, `SiteRoutes.java`, `MainVerticle.java`, or `WorkerVerticle.java`.
+These 2 Java files depend on each other, and generate errrors when one or the other doesn't exist. After they both exist, then the code generation can properly link to each other.
+If you still have `mvn clean install` compilation errors, try this code generation command below, or ask your instructor for help.
+
 == Next
 
 Were you able to launch your own data-driven website in the cloud? 
